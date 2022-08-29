@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* header */
+.header-link  {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D7D7D;
+}
+
+/* main */
+.card-name {
+    font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #B4AD9E;
+}
+
+.card-title{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+color: #626262;
+}
+
+.card-text{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #626262;
+}
+
+.button{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #626262;
+border: 1px solid #626262;
+background-color: #E5E5E5;
+}
