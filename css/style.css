@@ -1,49 +1,98 @@
-a {
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
-}
-
-body{
+body {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
 }
 
 /* header */
-.header-link  {
+
+.header-list {
+    display: flex;
+    justify-content: center;
+}
+
+.heder-item {
+    margin-left: 100px;
+}
+
+.heder-item:first-child {
+    margin-left: 0;
+}
+
+.header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+
+.header-link {
     font-size: 14px;
-    line-height: 1,36;
+    line-height: 1.36;
     color: #7D7D7D;
 }
 
+.header-link:hover{
+    color: #03A9F4;
+}
+
 /* main */
+main{
+    width: 915px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-item{
+    width: 420px;
+    margin-bottom: 130px;
+}
+
+.card-item:nth-child(5), .card-item:last-child{
+margin-bottom: 0;
+}
+
+.card-item:nth-child(2n){
+    margin-left: 65px;
+}
+
 .card-name {
     font-family: 'Ubuntu';
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 1,14;
-        color: #B4AD9E;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #B4AD9E;
+    margin-top:32px ;
+    margin-bottom: 32px;
 }
 
-.card-title{
-font-size: 30px;
-line-height: 1,33;
-color: #626262;
+.card-title {
+    font-size: 30px;
+    line-height: 1.33;
+    color: #626262;
+    margin-bottom: 40px;
 }
 
-.card-text{
-font-size: 14px;
-line-height: 1,36;
-color: #626262;
+.card-text {
+    font-size: 14px;
+    line-height: 1.36;
+    color: #626262;
 }
 
-.button{
-font-size: 14px;
-line-height: 1,36;
-color: #626262;
-border: 1px solid #626262;
-background-color: #E5E5E5;
+.button {
+    font-size: 14px;
+    line-height: 1.36;
+    color: #626262;
+    border: 1px solid #626262;
+    background-color: white;
+    display: block;
+    margin-top:62px ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:82px ;
+    padding:20px 48px 20px 48px ;
 }
