@@ -15,6 +15,20 @@ body {
     margin-left: 100px;
 }
 
+.heder-item:hover{
+    color: aqua;
+}
+
+.heder-icon{
+    fill: #03A9F4;
+}
+
+.heder-icon:hover{
+    fill: red;
+}
+
+
+
 .heder-item:first-child {
     margin-left: 0;
 }
