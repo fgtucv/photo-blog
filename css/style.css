@@ -13,10 +13,12 @@ body {
 
 .heder-item {
     margin-left: 100px;
+    transition: transform 500ms linear 250ms, color 500ms linear 250ms;
 }
 
 .heder-item:hover{
     color: aqua;
+    transform: scale(1.2);
 }
 
 .heder-icon{
@@ -64,6 +66,8 @@ main{
 .card-item{
     width: 420px;
     margin-bottom: 130px;
+    transition:box-shadow 500ms linear 250ms, padding 500ms linear 250ms;
+    padding: 5px;
 }
 
 .card-item:nth-child(5), .card-item:last-child{
@@ -75,8 +79,7 @@ margin-bottom: 0;
 }
 
 .card-item:hover{
-    border: 2px solid #03A9F4;
-    box-shadow: 3px 3px 5px cornflowerblue;
+    box-shadow: 1px 2px 3px 5px rgba(100, 148, 237, 0.5);
 }
 
 .card-photo{
@@ -118,6 +121,7 @@ margin-bottom: 0;
     margin-left: auto;
     margin-bottom:82px ;
     padding:20px 48px 20px 48px ;
+    transition: background-color 500ms linear 250ms, color 500ms linear 250ms, border 500ms linear 250ms, border-radius 500ms linear 250ms;
 }
 
 .button:hover{
